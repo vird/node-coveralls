@@ -1,7 +1,7 @@
 'use strict';
 
 const should = require('should');
-const request = require('request');
+const request = require('../lib/requestShm');
 const sinon = require('sinon');
 const logDriver = require('log-driver');
 const index = require('..');
